@@ -973,7 +973,9 @@
 	</body>
 </html>
 <script src="js/1.js"></script>
+<script src="js/2.js"></script>
 <script src="js/ajax.js"></script>
+<script src="js/aixin.js"></script>
 <script>
 	var aDiv=document.getElementById('big');
 	var aUl=document.getElementById('big').getElementsByTagName('ul')[0];
@@ -1131,14 +1133,14 @@
 	 oLogin.onclick=function(){
 	 	location.href = "https://hzypzy.github.io/liangcang-register&login/login.html"
 	 }
+	function fcs(ele,property){
+			if(window.getComputedStyle){
+				return getComputedStyle(ele)[property];
+			}else{
+				return ele.currentStyle[property];
+				}
+		}
 	
-	//爱心图点击效果、获取商品信息 、反馈给购物车页面
-var oFav=document.querySelectorAll('.aright');console.log(oFav)
-	for(var bl=0;bl<oFav.length;bl++){
-		oFav[bl].onclick=(function(){
-			oFav[bl].style.background="url(../img/redlove.png)no-repeat 30px 10px"
-	})(bl)
-}
 	
 	
 //jiahwoidadwpdsjlaiuwda窗口卷动 头部定位
