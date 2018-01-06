@@ -1,5 +1,5 @@
 //爱心图点击效果、获取商品信息 、反馈给购物车页面
- var oFav=document.querySelectorAll('.aright');console.log(oFav[0].style.background);
+ var oFav=document.querySelectorAll('.aright');//console.log(oFav[0].style.background);
  var j=true;var l=0;
 // 	for(var l=0;l<oFav.length;l++){
 // 		

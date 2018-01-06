@@ -9,7 +9,7 @@
 			//console.log(str)
 			var obj=JSON.parse(str)			
 //			 ob=arr[0];
-			console.log(obj);
+//			console.log(obj);
 //			console.log(arr);console.log(typeof(arr))
 //			console.log(ob);console.log(typeof(ob))
 //			console.log(ob.cat_name);
@@ -21,12 +21,13 @@
 			//document.body.appendChild(oUl);	
 //			console.log(arr[1].cat_id)
 			for(var i=0;i<arr.length;i++){
-				console.log(arr[i].cat_name)
+//				console.log(arr)
 				oLI[i].innerHTML=arr[i].cat_name
-
+				//console.log(arr[i].cat_name)
 			}	
 		}
 	}
 	xhr.open("GET","http://csit.top/api_cat.php",true)
+	
 	xhr.send();
 	
