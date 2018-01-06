@@ -490,3 +490,87 @@
 		right:0;
 		display:block;
 	}
+
+	 //购物车页面样式
+	 .shoppingWidth{
+	 	width:1000px;
+	 	height:auto;
+	 	margin:0 auto;
+	 	text-align:center;
+	 }
+	 /*.shoppingCar-main{
+	 	height:auto;
+	 }*/
+	 .shoppingCar-top{
+	 	/*height:auto;*/
+	 	padding:50px 0 10px 0;
+	 	text-align:center;
+	 }
+	 .div-span{
+	 	width: auto;
+	    height: 30px;
+	    display: inline-block;
+	    line-height: 30px;
+	    /*float: left;*/
+	 }
+	 .span-text{
+	    width: 135px;
+	    height: 20px;
+	    display: block;
+	    color: #666;
+	 }
+	 .span-text-1{
+	 	color:#6393b4;
+	 }
+	 .tbl{
+	 	width:1000px;
+	 	height:auto;
+	 	margin:0 auto;
+	 	color:#404040;
+	 }
+	 .yihang td{
+	 	padding: 15px 5px;
+	    border-bottom: 2px solid #ccc;
+	 }
+	 .myfav{
+	    width: 100%;
+	    /*clear: both;*/
+	    text-align: center;
+	    padding: 20px 0px;
+	    position:relative;
+	 }
+	 .lpzj{
+	 	font:14px/26px "微软雅黑";
+	 }
+	 #spzj{
+	 	/*display: block;*/
+	 	margin-left:15px;
+	 	font:20px/26px "微软雅黑";
+	 	color:#197bc9;
+	 }
+	 #jiesuan{
+	 	outline:none;
+	 	border:none;
+	 	width:168px;
+	 	height:30px;
+	 	background:#7fa6c5 ;
+	 	color:#fff;
+	 	margin-top:5px;
+	 }
+	 .jixugouwu{
+	 	width:168px;
+	 	height:25px;
+	 	border-bottom:1px solid #ccc;
+	 	margin:0 auto;
+	 }
+	 #continue{
+	 	display: block;
+	 	position:absolute;
+	 	left:50%;
+	 	top:97px;
+	 	margin-left:-32px;
+	 	background:white;
+	 	color:#404040;
+	 	font-size:14px;
+	 }
+	
